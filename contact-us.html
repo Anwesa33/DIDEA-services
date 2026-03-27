@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>Didea Services</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet" >
+    <link href="css/bootstrap-reboot.css" rel="stylesheet" >
+    
+    <link rel="stylesheet" href="css/owl-carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    
+    <link href="css/font-awesome.css" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="">
+              </a>
+              <div class="other-side">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                                      	<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="our-products.html">Our Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="our-services.html">Our services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="our-clients.html">Our Clients</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="testimonial.html">Testimonials</a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="navbar-right">
+                <a href="contact-us.html" class="signin">contact us <span><img src="images/icon8.png" alt=""></span></a>
+              </div>
+            </div>
+            </div>
+          </nav>
+        </header>
+    <!-- header section end -->
+
+<section class="contact-banner position-relative">
+    <img src="images/cont-banner.png" alt="" class="cnt-bnimg position-absolute">
+    <div class="container">
+        <div class="cnt-bn-inr">
+            <h1>Contact Us</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<div class="enquiry_btn">
+    <a href="enquiry.html">Enquiry</a>
+</div>
+<section class="cntc-mn">
+    <div class="container">
+        <div class="cnt-mn-ppr">
+            <div class="cnt-mn-lft">
+                <h2>Connect with us:</h2>
+                <span style="color:red">*</span> mark fields are mandatory
+                <br>
+                <br>
+                <form action="https://dideaservices.com/html/didea/contact-us-save" method="get">
+                   
+                    <div class="row align-items-stretch" >
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="cont-frmgrp">
+                                <input type="text" placeholder="" required name="name">
+                                <!-- <label for="" class="error">This field cannot be empty</label> -->
+                                <label for="">Name <span style="color:red">*</span></label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="cont-frmgrp">
+                                <input type="text" placeholder="" required name="phone">
+                                <label for="">Phone Number <span style="color:red">*</span></label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="cont-frmgrp">
+                                <input type="text" placeholder="" required name="email">
+                                <label for="">Email <span style="color:red">*</span></label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="cont-frmgrp">
+                                <select name="subject" id="" >
+                                    <option value="" hidden >&nbsp;&nbsp;</option>
+                                    <option value="1">Subject 1</option>
+                                    <option value="2">Subject 2</option>
+                                    <option value="3">Subject 3</option>
+                                    <option value="4">Other</option>
+                                </select>
+                                <label for="">Subject <span style="color:red">*</span></label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="cont-frmgrp">
+                                <textarea name="message" id="" placeholder=""></textarea>
+                                <label for="">Message <span style="color:red">*</span></label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="captcha">
+
+                                <div class="spinner">
+
+                                    <label>
+
+                                        <input type="checkbox" required>
+                                        <!-- onclick="$(this).attr('disabled','disabled');" disabled="disabled" -->
+
+                                        <span class="checkmark"><span>&nbsp;</span></span>
+
+                                    </label>
+
+                                </div>
+
+                                <div class="text">
+
+                                    I'm not a robot
+
+                                </div>
+
+                                <div class="logs">
+
+                                    <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png">
+
+                                    <p>reCAPTCHA</p>
+
+                                    <small>Privacy - Terms</small>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="cont-sbmt" type="submit">Submit
+                                <span><img src="images/icon8.png" alt=""></span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="cnt-mn-rt">
+                <div class="cnt-rt-top">
+                    <h6>Contact details :</h6>
+                    <ul class="mn-cnt-deet">
+                        <li class="cnt-b1">
+                            <div class="cnt-dtop mb-0">
+                                <em>
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_4169_41)">
+                                        <path d="M19.0906 6.4725C20.3115 6.71071 21.4336 7.30783 22.3132 8.18742C23.1928 9.06702 23.7899 10.1891 24.0281 11.41M19.0906 1.4725C21.6272 1.7543 23.9926 2.89022 25.7984 4.69376C27.6042 6.4973 28.7431 8.86127 29.0281 11.3975M27.7781 21.3725V25.1225C27.7795 25.4706 27.7082 25.8152 27.5688 26.1342C27.4293 26.4532 27.2247 26.7395 26.9682 26.9748C26.7117 27.2102 26.4088 27.3894 26.0791 27.5009C25.7493 27.6124 25.3998 27.6538 25.0531 27.6225C21.2067 27.2046 17.5119 25.8902 14.2656 23.785C11.2454 21.8658 8.68479 19.3052 6.76561 16.285C4.65309 13.024 3.33842 9.31125 2.92811 5.4475C2.89688 5.10184 2.93796 4.75345 3.04874 4.42453C3.15952 4.09561 3.33758 3.79337 3.57157 3.53703C3.80557 3.2807 4.09037 3.07589 4.40785 2.93566C4.72534 2.79542 5.06854 2.72283 5.41561 2.7225H9.16561C9.77225 2.71653 10.3604 2.93135 10.8203 3.32692C11.2803 3.72249 11.5807 4.27181 11.6656 4.8725C11.8239 6.07259 12.1174 7.25091 12.5406 8.385C12.7088 8.83241 12.7452 9.31865 12.6455 9.7861C12.5458 10.2536 12.3142 10.6826 11.9781 11.0225L10.3906 12.61C12.1701 15.7394 14.7612 18.3306 17.8906 20.11L19.4781 18.5225C19.818 18.1864 20.2471 17.9548 20.7145 17.8551C21.182 17.7554 21.6682 17.7918 22.1156 17.96C23.2497 18.3832 24.428 18.6767 25.6281 18.835C26.2353 18.9207 26.7899 19.2265 27.1863 19.6944C27.5827 20.1622 27.7933 20.7595 27.7781 21.3725Z" stroke="#A50253" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_4169_41">
+                                        <rect width="30" height="30" fill="white" transform="translate(0.277344 0.222504)"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>                                        
+                                </em>
+                                <text><a href="tel:9433019900;">+91 9433019900</a></text>
+                            </div>
+                            <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui asperiores laudantium dolorum.</p> -->
+                        </li>
+                        <li class="cnt-b2">
+                            <div class="cnt-dtop mb-0">
+                                <em>
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5.57227 5.37479H25.5723C26.9473 5.37479 28.0723 6.49979 28.0723 7.87479V22.8748C28.0723 24.2498 26.9473 25.3748 25.5723 25.3748H5.57227C4.19727 25.3748 3.07227 24.2498 3.07227 22.8748V7.87479C3.07227 6.49979 4.19727 5.37479 5.57227 5.37479Z" stroke="#212935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M28.0723 7.87479L15.5723 16.6248L3.07227 7.87479" stroke="#212935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                                </em>
+                                <text><a href="mailto:info@dideaservices.com">info@dideaservices.com</a><br> <a href="mailto:sales.dideaservices@gmail.com">sales.dideaservices@gmail.com</a></text>                                
+                            </div>
+                            <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui asperiores laudantium dolorum.</p> -->
+                        </li>
+                        <li class="cnt-b3">
+                            <div class="cnt-dtop">
+                                <em>
+                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M26.25 12.5C26.25 21.25 15 28.75 15 28.75C15 28.75 3.75 21.25 3.75 12.5C3.75 9.51631 4.93526 6.65483 7.04505 4.54505C9.15483 2.43526 12.0163 1.25 15 1.25C17.9837 1.25 20.8452 2.43526 22.955 4.54505C25.0647 6.65483 26.25 9.51631 26.25 12.5Z" stroke="#212935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M15 16.25C17.0711 16.25 18.75 14.5711 18.75 12.5C18.75 10.4289 17.0711 8.75 15 8.75C12.9289 8.75 11.25 10.4289 11.25 12.5C11.25 14.5711 12.9289 16.25 15 16.25Z" stroke="#212935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                                </em>
+                                <text><h6>Address</h6></text>
+                            </div>
+                            <p>DIDEA Services <br>
+                                Deshbandhu Road, Madhyamgram<br>
+                                Kolkata- 700130, WB, India </p>
+                        </li>
+                    </ul>
+                    <div class="cont-sos">
+                        <h6>Connect via social media:</h6>
+                        <ul>
+                            <li> <a href="#" target="_blank"> <img src="images/facebook.png" alt=""> </a> </li>
+                            <li> <a href="#" target="_blank"> <img src="images/in.png" alt=""> </a> </li>
+                            <li> <a href="#" target="_blank"> <img src="images/xx.png" alt=""> </a> </li>
+                            <li> <a href="#" target="_blank"> <img src="images/you.png" alt=""> </a> </li>
+                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Footer-->
+<section class="footer_inner">
+    <div class="container">
+            
+           <div class="main_footer">
+           
+           <div class="footer-top">
+              <div class="foot-lft">
+                  <a href="index.html" class="fot-logo"> <img src="images/footer.png" alt=""></a>
+                  <p>Due to the proficiency of our sincere team of professionals, we have gained huge success in the field of highly reliable array of our products. Our team of professional holds vast industry experience and assist us in catering varied requirements of clients in economical manner.</p>
+                  <a href="about.html" class="footer_more">Read more </a>
+              </div>
+              <div class="foot-mid">
+                  <h3>Quick Links</h3>
+                  <div class="foot-mid-inr">
+                      <ul>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="about.html">About Us</a></li>
+                          <li><a href="our-products.html">Our Products</a></li>
+                          <li><a href="our-services.html">Our Services</a></li>
+                      </ul>
+                      <ul>
+                      	  <li><a href="our-clients.html">Our Clients</a></li>
+                          <li><a href="testimonial.html">Testimonials</a></li>
+                          <li><a href="enquiry.html">Enquiry</a></li>
+                          <li><a href="contact-us.html">Contact Us</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="foot-right">
+                    <span class="aroo"><img src="images/aro.png" alt=""></span>
+                  <h3>Get in touch</h3>
+                  <ul>
+                      <li> <span>Address :</span> <p>DIDEA Services<br>
+                        Deshbandhu Road, Madhyamgram<br>
+                        Kolkata- 700130, WB, India</p></li>
+                      <li> <span>Call :</span> <a href="#">+91 9433019900</a></li>
+                      <li> <span>Email :</span> <a href="#" class="fww">info@dideaservices.com</a><a href="#" class="fww">sales.dideaservices@gmail.com</a></li>
+                  </ul>
+              </div>
+           </div>
+    
+           <div class="footer-btms">
+              <div class="copy_text">
+                 <p>© 2025 <a href="index.html">dideaservices.com</a>|  All Rights Reserved</p>
+              </div>
+              <div class="socaila_links">
+              <p>Connect on Social</p>
+              <ul>
+                 <li> <a href="#" target="_blank"> <img src="images/facebook.png" alt=""> </a> </li>
+                 <li> <a href="#" target="_blank"> <img src="images/in.png" alt=""> </a> </li>
+                 <li> <a href="#" target="_blank"> <img src="images/xx.png" alt=""> </a> </li>
+                 <li> <a href="#" target="_blank"> <img src="images/you.png" alt=""> </a> </li>
+              </ul>
+           </div>
+           </div>
+    
+           
+    
+            </div>
+    
+    </div>
+    </section>
+<!-- footer section end -->
+
+
+
+
+
+<button id="scrollToTopBtn" class="scrollTop">
+    <img src="images/corner-left-up.png">
+</button>
+
+  <!-- Jquery-->
+  <script src="js/popper.min.js"></script>
+  <script src="js/jquery.min.js" type="text/javascript"></script> 
+  <script src="js/bootstrap.bundle.js" type="text/javascript"></script>  
+  <script src="js/owl.carousel.min.js" type="text/javascript"></script>  
+  <script src="js/custom.js" type="text/javascript"></script>    
+  <script src="js/go_to_top.js" type="text/javascript"></script> 
+  <!-- Jquery-->
+  
+</body>
+</html>
